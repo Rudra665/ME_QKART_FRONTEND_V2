@@ -10,7 +10,7 @@ import Thanks from "./components/Thanks"
 
 // The endpoint used across the app
 export const config = {
-  endpoint: `http://${ipConfig.workspaceIp}:8082/api/v1`,
+  endpoint: `http://${ipConfig.workspaceIp}/api/v1`,
 };
 
 function App() {
