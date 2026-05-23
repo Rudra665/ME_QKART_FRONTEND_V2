@@ -3,8 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"prestart": "node -e \"require.resolve('express')\" || npm install --no-audit --no-fund",
-		"start": "prestart && node index.js"
+		"start": "node index.js"
 	},
 	"dependencies": {
 		"cors": "^2.8.5",
