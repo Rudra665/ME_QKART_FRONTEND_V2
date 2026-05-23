@@ -9,7 +9,7 @@ import Checkout from "./components/Checkout";
 import Thanks from "./components/Thanks";
 
 // The endpoint used across the app
-const apiBaseUrl = ipConfig.workspaceIp.startsWith("http")
+const apiBaseUrl = ipConfig.workspaceIp.startsWith("https")
 	? ipConfig.workspaceIp
 	: `http://${ipConfig.workspaceIp}`;
 
